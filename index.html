@@ -1,0 +1,263 @@
+<!-- Save as index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LifeTide HQ | Lifestyle & Wellness Magazine</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Nunito Sans',sans-serif;
+background:#faf8f3;
+color:#2d2d2d;
+}
+
+header{
+padding:35px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #ddd;
+background:#fff;
+}
+
+.logo{
+font-family:'Playfair Display',serif;
+font-size:34px;
+font-weight:700;
+color:#36543b;
+}
+
+nav a{
+margin-left:30px;
+text-decoration:none;
+color:#555;
+font-weight:700;
+}
+
+.container{
+width:90%;
+max-width:1280px;
+margin:50px auto;
+}
+
+.hero{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:30px;
+}
+
+.hero img{
+width:100%;
+height:520px;
+object-fit:cover;
+border-radius:20px;
+}
+
+.side{
+display:grid;
+gap:20px;
+}
+
+.side img{
+height:250px;
+border-radius:18px;
+object-fit:cover;
+}
+
+.tag{
+display:inline-block;
+background:#d9ead3;
+padding:8px 18px;
+border-radius:30px;
+font-size:13px;
+font-weight:700;
+margin:25px 0 15px;
+color:#36543b;
+}
+
+h1{
+font-family:'Playfair Display';
+font-size:60px;
+line-height:1.05;
+margin-bottom:20px;
+}
+
+.lead{
+font-size:19px;
+color:#666;
+max-width:760px;
+}
+
+.grid{
+margin-top:70px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.article{
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 12px 35px rgba(0,0,0,.07);
+}
+
+.article img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.article div{
+padding:24px;
+}
+
+.article h3{
+font-family:'Playfair Display';
+margin-bottom:12px;
+font-size:28px;
+}
+
+footer{
+margin-top:80px;
+padding:35px;
+background:#36543b;
+color:#fff;
+text-align:center;
+}
+
+@media(max-width:900px){
+
+.hero,
+.grid{
+grid-template-columns:1fr;
+}
+
+h1{
+font-size:42px;
+}
+
+header{
+flex-direction:column;
+gap:20px;
+}
+
+nav a{
+margin:0 10px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">LifeTide HQ</div>
+
+<nav>
+<a href="#">Wellness</a>
+<a href="#">Travel</a>
+<a href="#">Home</a>
+<a href="#">Mindset</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<div class="tag">LIFESTYLE MAGAZINE</div>
+
+<h1>Live Better Through Everyday Inspiration</h1>
+
+<p class="lead">
+Discover practical wellness habits, mindful living ideas, travel inspiration, home organization tips, and balanced lifestyle guides designed for modern living.
+</p>
+
+<br><br>
+
+<section class="hero">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80" alt="Nature Lifestyle">
+
+<div class="side">
+
+<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80" alt="Healthy Food">
+
+<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" alt="Travel">
+
+</div>
+
+</section>
+
+<section class="grid">
+
+<div class="article">
+
+<img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Yoga">
+
+<div>
+
+<h3>Morning Wellness Rituals</h3>
+
+<p>Simple routines that help create more focus, energy, and balance throughout your day.</p>
+
+</div>
+
+</div>
+
+<div class="article">
+
+<img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80" alt="Home">
+
+<div>
+
+<h3>Mindful Home Spaces</h3>
+
+<p>Create peaceful interiors with thoughtful organization and natural design ideas.</p>
+
+</div>
+
+</div>
+
+<div class="article">
+
+<img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80" alt="Reading">
+
+<div>
+
+<h3>Personal Growth</h3>
+
+<p>Develop positive habits, lifelong learning, and intentional routines for everyday success.</p>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+
+© 2026 LifeTide HQ • Lifestyle & Wellness Magazine
+
+</footer>
+
+</body>
+</html>
